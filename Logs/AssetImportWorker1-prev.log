@@ -1,0 +1,651 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.35f1 (011206c7a712) revision 70150'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 49068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Program Files\2022.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+K:/Randy/Terrain_Contour_HDRP_2022_3_35
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62079
+Successfully changed project path to: K:/Randy/Terrain_Contour_HDRP_2022_3_35
+K:/Randy/Terrain_Contour_HDRP_2022_3_35
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21156] Host "[IP] 100.126.21.253 [Port] 0 [Flags] 2 [Guid] 85898103 [EditorId] 85898103 [Version] 1048832 [Id] WindowsEditor(7,Home-Desk-Top) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21156] Host "[IP] 100.126.21.253 [Port] 0 [Flags] 2 [Guid] 85898103 [EditorId] 85898103 [Version] 1048832 [Id] WindowsEditor(7,Home-Desk-Top) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 10.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path E:/Program Files/2022.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path K:/Randy/Terrain_Contour_HDRP_2022_3_35/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.5599
+Shader 'AmplifyShaderPack/Terrain/Simple': fallback shader 'Off' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Initialize mono
+Mono path[0] = 'E:/Program Files/2022.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/2022.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/2022.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/2022.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007543 seconds.
+- Loaded All Assemblies, in  0.496 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.307 seconds
+Domain Reload Profiling: 803ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1773ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'AmplifyShaderPack/Terrain/Simple': fallback shader 'Off' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Shader 'AmplifyShaderPack/Terrain/Simple': dependency 'BaseMapShader' shader 'Hidden/AmplifyShaderPack/Terrain/Simple BasePass' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (3.6 MB). Loaded Objects now: 5912.
+Memory consumption went from 270.1 MB to 266.6 MB.
+Total: 6.073700 ms (FindLiveObjects: 0.619800 ms CreateObjectMapping: 0.622000 ms MarkObjects: 3.998700 ms  DeleteObjects: 0.831900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ObjSpaceLightDirHlpNode.cs: 058716b05b8a0c4b346e945f8f360613 -> 
+  custom:scripting/monoscript/fileName/ScaleNode.cs: f4ef0878584f198ac3df3bccab09aa68 -> 
+  custom:scripting/monoscript/fileName/GlobalArrayNode.cs: bfa9498077f2ddc8c62a02b68cd407ab -> 
+  custom:scripting/monoscript/fileName/EdgeLengthTessNode.cs: bb730243467f76aad253bf08e3c2d2b1 -> 
+  custom:scripting/monoscript/fileName/ToolsWindow.cs: 5a9fee0a864ae8986c47369b71d96172 -> 
+  custom:scripting/monoscript/fileName/TemplateOptionsPort.cs: 4e86781b96402f6a41aac11e4a1af8cd -> 
+  custom:scripting/monoscript/fileName/TemplateNodeParent.cs: 4e433078aa5ff0ed7c44e2ea7e4105da -> 
+  custom:scripting/monoscript/fileName/TemplateSubShader.cs: df57b013df612d275542e89071ee9591 -> 
+  custom:scripting/monoscript/fileName/ATanOpNode.cs: a6bc43e08522074f10f4bccdf53fa14c -> 
+  custom:scripting/monoscript/fileName/ExpOpNode.cs: 479c95f39d97e64ba13a54d8d9f00c40 -> 
+  custom:scripting/monoscript/fileName/TexelSizeNode.cs: 7abaa304cd336bdbfa53265db46eee2c -> c657fce3305d3bf64a830debbcc92f57
+  custom:scripting/monoscript/fileName/SingleInputOp.cs: 9dc9bbe72fcbb063c730bc77b90bf7c7 -> 
+  custom:scripting/monoscript/fileName/SinhOpNode.cs: b6b9aaa2569188b2fab647685128e004 -> 
+  custom:scripting/monoscript/fileName/InverseOpNode.cs: 1a951ebce7d6aa18fec956a05f7cac8c -> 
+  custom:scripting/monoscript/fileName/ScreenColorNode.cs: d80e9f21c0716bccd197f5b138c59e93 -> 
+  custom:scripting/monoscript/fileName/UnityObjToClipPosHlpNode.cs: 3fce87f0651271d2a0da608412ae64d0 -> 
+  custom:scripting/monoscript/fileName/Exp2OpNode.cs: e42d20133787d78f63c8fbc7bc71f753 -> 
+  custom:scripting/monoscript/fileName/SingleLineTexture.cs: 5dd7fd51c35197fdc3d3cc0e9122c371 -> 
+  custom:scripting/monoscript/fileName/ScreenParams.cs: dc958f1aae94fd30d560371478f05fff -> 
+  custom:scripting/monoscript/fileName/ObjectToWorldTransfNode.cs: c89b980538d1fcdeef33db9f5cbbb9bd -> 
+  custom:scripting/monoscript/fileName/SimpleDivideOpNode.cs: 8c77c5d61161cb01a6557e74fe11329a -> 
+  custom:scripting/monoscript/fileName/SinTimeNode.cs: 519bbda8900dcc52ea6ee74094b4fadf -> 
+  custom:scripting/monoscript/fileName/TanhOpNode.cs: 2bbd8be58f4298f2d890427b104df7d8 -> 
+  custom:scripting/monoscript/fileName/InverseViewProjectionMatrixNode.cs: 3f8a4e95777a5cb7484c9d0848f355fe -> 
+  custom:scripting/monoscript/fileName/PortLegendInfo.cs: e9d9b841a4fbf47ee458c1f2d68f383f -> 
+  custom:scripting/monoscript/fileName/PaletteParent.cs: 98ecbd53a0b9e5a706e26114b9b26597 -> 
+  custom:scripting/monoscript/fileName/ProjectionMatrixNode.cs: 6479f2d32fb371a0897e828b6dc03658 -> 
+  custom:scripting/monoscript/fileName/InlinePropertyTable.cs: 4df26ee492fb2ec2fe916a4bc605566c -> 
+  custom:scripting/monoscript/fileName/TemplatePassSelectorHelper.cs: d4812141f91650e4da1333a0b110b2ad -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BakedGINode.cs: 303c132f2239df25e635def58da21b90 -> 8c889cdfde0b3413c4bd31a994d95c18
+  custom:scripting/monoscript/fileName/WindowHelper.cs: e26325e6b1b128ababfc2bb0e55bc230 -> 
+  custom:scripting/monoscript/fileName/GLDraw.cs: ac6cd4e9dfd538df46f1b66abe991692 -> 
+  custom:scripting/monoscript/fileName/BillboardOpHelper.cs: ab4fbb07a5feddf49cd68084ce2c5637 -> 
+  custom:scripting/monoscript/fileName/UnityObjToViewPosHlpNode.cs: 76476e8270f3633fa17998badfb26f82 -> 
+  custom:scripting/monoscript/fileName/SceneSaveCallback.cs: 13c225708087b7a87da5ba01b20dc48c -> 
+  custom:scripting/monoscript/fileName/StepOpNode.cs: 1f290c81e038a5fd3bd2ffa6c96ec9f6 -> 
+  custom:scripting/monoscript/fileName/InvalidDataChecker.cs: 2a5a596a43ddebac14c86a664981c8ca -> 
+  custom:scripting/monoscript/fileName/TemplateData.cs: f1f0c3b1534a64ea0a026779059ebb62 -> 
+  custom:scripting/monoscript/fileName/ActionLog.cs: a79c7383794051663dc658679f6eb220 -> 
+  custom:scripting/monoscript/fileName/SamplerNode.cs: b31ae45b49cd885c01944258441b513b -> 
+  custom:scripting/monoscript/fileName/CameraToWorldMatrix.cs: dd429def0a79efc26d2e0a0b2b58665a -> 
+  custom:scripting/monoscript/fileName/LuminanceHlpNode.cs: a4dd2ef9844b6f8361d10cae1cb5c560 -> 
+  custom:scripting/monoscript/fileName/TextureCoordinatesNode.cs: 14086c7c3bbbc019fab38fb2121e7b0d -> 
+  custom:scripting/monoscript/fileName/FallbackTexture.cs: eb4ab9a22da41248a51931532d5aceac -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: b4b9dbcff087d88a69a26cfa47896198 -> 
+  custom:scripting/monoscript/fileName/TFHCCompareGreater.cs: 080942583ac203e5bf5ce55073f6442c -> 
+  custom:scripting/monoscript/fileName/Clipboard.cs: 117e0d12e65e25ac8ae70b1015adf415 -> e057e73a3ad057cb5ed40e0360bf50e2
+  custom:scripting/monoscript/fileName/LerpOp.cs: 273275d6a72ff291a917dca69e843f7b -> 
+  custom:scripting/monoscript/fileName/DuplicatePreventionBuffer.cs: 544f6df68c08cf72454d3058265d31bb -> 
+  custom:scripting/monoscript/fileName/BreakToComponentsNode.cs: f8cc244371c4132ebb2877dba53ca298 -> 
+  custom:scripting/monoscript/fileName/DragAndDropTool.cs: dca499c7153f26ab6e2e23ad2939a54c -> 
+  custom:scripting/monoscript/fileName/ScaleAndOffsetNode.cs: 7a71e5dd26fc2b1323bfdad8e9c19a0d -> 
+  custom:scripting/monoscript/fileName/RefractOpVec.cs: 60f236ca844d2477859a304d7a644a6e -> 
+  custom:scripting/monoscript/fileName/CustomExpressionNode.cs: c1ee3b56a04f9172a8b5d76f3d98ff10 -> 
+  custom:scripting/monoscript/fileName/RemapSlidersFull.cs: 41ea7da83453197a9015064fdb9f6302 -> 
+  custom:scripting/monoscript/fileName/BlendWeightsNode.cs: 27091bc2d53c241c03903b60210d53a8 -> 
+  custom:scripting/monoscript/fileName/StickyNoteNode.cs: 511adf08771fb02eb7b3bb7e612f1fcc -> 
+  custom:scripting/monoscript/fileName/PaletteWindow.cs: cd9427409cf8663565f90112b7b1263f -> 
+  custom:scripting/monoscript/fileName/TexturePropertyNode.cs: 947cb5c4bbfbb2bffecf778424b8bb1c -> 
+  custom:scripting/monoscript/fileName/TemplatePostProcessor.cs: d5056cc4edc3d9b3a4876fcf1ec7dc83 -> 
+  custom:scripting/monoscript/fileName/UnityProjectorClipMatrixNode.cs: 11845ed0715976f049b1f8e513568dfd -> 
+  custom:scripting/monoscript/fileName/FunctionOutput.cs: 390bc8065db04de6ba24ee43a6e64786 -> 
+  custom:scripting/monoscript/fileName/BlendOpsHelper.cs: 48b9460c8ff41fb3b0dfcde7322542df -> 
+  custom:scripting/monoscript/fileName/TemplateShaderPropertyData.cs: 5a86fa230ac7ee39a4635d21f8cff1de -> 
+  custom:scripting/monoscript/fileName/Compare.cs: 5ab923f9e5f9596553180c83b1edfd10 -> 
+  custom:scripting/monoscript/fileName/UnpackScaleNormalNode.cs: 5bd46d17df0cd91247d01d91c318de89 -> 
+  custom:scripting/monoscript/fileName/InputPort.cs: 71a7e7092c62cfde9d6bf31490d8c461 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PannerNode.cs: 56ca106bcf0a071f316e8af10f7d8b64 -> 
+  custom:scripting/monoscript/fileName/AdditionalPragmasHelper.cs: 46505891bcd8308abdd3fcea3a709801 -> 
+  custom:scripting/monoscript/fileName/ConfirmationWindow.cs: eb8ba86f3419f691537158d298ccddc0 -> 
+  custom:scripting/monoscript/fileName/WireReference.cs: 9f0e7d93a98c2c560f7a4c5d29fb6530 -> 
+  custom:scripting/monoscript/fileName/CustomShaderInspector.cs: 4a8910f0a19e566caa7804312dc2be3c -> 
+  custom:scripting/monoscript/fileName/EncodeFloatRGHlpNode.cs: 00feb10ce6621f24cb010f07e3e61d86 -> 
+  custom:scripting/monoscript/fileName/TemplateMultiPassSwitchNode.cs: 4acd43c4776fa60e1bdaa324e4c521e5 -> 
+  custom:scripting/monoscript/fileName/DiffusionProfileNode.cs: 63f6e6161ea0bb3d0cbeb4e9812d8f82 -> 9c612fd12e00e1a5e5eff679a5107b9d
+  custom:scripting/monoscript/fileName/EdgeLengthCullTessNode.cs: f09377747526610a235ef54187b01cf0 -> 
+  custom:scripting/monoscript/fileName/MatrixParentNode.cs: 72bf38314cd25741ad0192357056fc04 -> 
+  custom:scripting/monoscript/fileName/SignOpNode.cs: 8835dbebdefc1c9c3c3edd58da3366cf -> 
+  custom:scripting/monoscript/fileName/TextureTransformNode.cs: c42c38867151c815cef653aa8f13087f -> 
+  custom:scripting/monoscript/fileName/TemplateAdditionalDirectivesHelper.cs: da52ad667a70749bc2ffa8c95e96dea2 -> 
+  custom:scripting/monoscript/fileName/ComputeGrabScreenPosHlpNode.cs: f10127807926c6391faaeac33c6263ec -> 
+  custom:scripting/monoscript/fileName/HDEmissionNode.cs: 2671fb5eabcc3b8146e3903308f5c734 -> 
+  custom:scripting/monoscript/fileName/OutlineNode.cs: 749613b8a63d68d6d59d2f9d64784b5d -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicAppendNode.cs: 8726c81e0409604b2f66103b2ad5f44f -> 
+  custom:scripting/monoscript/fileName/ComputeScreenPosHlpNode.cs: 66e3089ae582e94fa475880eb5c30f06 -> 
+  custom:scripting/monoscript/fileName/Texture3MatrixNode.cs: fe3b83e4ab8ea90fc81a4a5b0ceb975e -> 
+  custom:scripting/monoscript/fileName/NodeAttributes.cs: 47029505f560d5cec11a327287d51d73 -> 
+  custom:scripting/monoscript/fileName/NodeParametersWindow.cs: 46f2ca6421612545640a8d86c3a86727 -> 
+  custom:scripting/monoscript/fileName/MatrixFromVectors.cs: 66f1ea2a37b2fb563db62ad69b30c65e -> 
+  custom:scripting/monoscript/fileName/VertexColorNode.cs: de66fb98cc5fc7eff4ecdb3f78016233 -> eb8b72fefc396e9476206c81447fae42
+  custom:scripting/monoscript/fileName/TemplateModuleParent.cs: 4c042240053494985a25abedfad7bc86 -> 
+  custom:scripting/monoscript/fileName/FallbackVariable.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TemplateCodeSnippetBase.cs: 3bf248c714e1a380699f15f003209a06 -> 
+  custom:scripting/monoscript/fileName/ConditionalIfNode.cs: b24aa010abffb2e3e8d8abb4e2c7cd5f -> 
+  custom:scripting/monoscript/fileName/PropertyNode.cs: 52114c1a5a553c0f2f97204e64f61e82 -> 4ae4c00562af71cf9b803fcb674340a3
+  custom:scripting/monoscript/fileName/MMatrixNode.cs: 7549f8cd6b84fca20bf9c96ae4e623c3 -> 
+  custom:scripting/monoscript/fileName/WorldToCameraMatrix.cs: 224c5e68ee45e3f1fefeadb0e3fa7ed4 -> 
+  custom:scripting/monoscript/fileName/FresnelNode.cs: b11c09b0fee348ef1fb14949dcd1c2d5 -> 
+  custom:scripting/monoscript/fileName/ASETextureArrayCreator.cs: 5cf00100208596d5ce8d32862533fc3e -> 
+  custom:scripting/monoscript/fileName/AdditionalIncludesHelper.cs: afd3aa63e8cc1f32efbc2cfbf5177a6d -> 
+  custom:scripting/monoscript/fileName/TFHCCompareGreaterEqual.cs: 822524c96b7e79c251291444452112c0 -> 
+  custom:scripting/monoscript/fileName/ProjectionParams.cs: 845ce92af95376735754817a20b088c0 -> 
+  custom:scripting/monoscript/fileName/Texture2MatrixNode.cs: c604d522dd53289e31323e006ac3173b -> 
+  custom:scripting/monoscript/fileName/HelperParentNode.cs: 4eba26a706848230e0d35a2531e1cda2 -> 
+  custom:scripting/monoscript/fileName/SimpleMinOpNode.cs: 82f9977d40b34212bc0e03233515ef9f -> 
+  custom:scripting/monoscript/fileName/ActionSequence.cs: 2f4af3833339a91cd97ca370076a4acf -> 
+  custom:scripting/monoscript/fileName/TessellationParentNode.cs: 47e99b9c638785d33c2eb34afa622b62 -> 
+  custom:scripting/monoscript/fileName/ASEStartScreen.cs: ad19637ed7983d4892194fb085ef2fe9 -> 
+  custom:scripting/monoscript/fileName/TFHCRemapNode.cs: e4db9c8a74b5806e10337c943b072556 -> 
+  custom:scripting/monoscript/fileName/DistanceOpNode.cs: e9819089787f070120a2e5e5974a57b6 -> 
+  custom:scripting/monoscript/fileName/TemplateFragmentDataNode.cs: dc7e4be91994eb4d9ec78844270f2cf4 -> 
+  custom:scripting/monoscript/fileName/ReflectionProbeNode.cs: 959fe77577d0e6682131de8c2cc61c8a -> 182d55271fe9b97a41f0167ca7e2fb89
+  custom:scripting/monoscript/fileName/TFHCCompareEqual.cs: 4c0928da3f658b97956f493009dee0db -> 
+  custom:scripting/monoscript/fileName/AmplifyShaderEditorWindow.cs: 9a5cb23f5ecf527ebcb8c101ddbe7057 -> 
+  custom:scripting/monoscript/fileName/RelayNode.cs: 910db193841d536339c80c019d0003e7 -> 
+  custom:scripting/monoscript/fileName/TFHCIf.cs: c779f06396ee9434ca7379530da02bd6 -> 
+  custom:scripting/monoscript/fileName/TemplateOptionsDefinesContainer.cs: c6ad7bfe31b69e05333830012f642a78 -> 
+  custom:scripting/monoscript/fileName/TemplateVertexData.cs: 1905cbd694cc921e8e0a8d30ae783448 -> 
+  custom:scripting/monoscript/fileName/AutoPanData.cs: d8420c86c1f9263dc4d64326639668ec -> 
+  custom:scripting/monoscript/fileName/TessellationOpHelper.cs: b018f7e74a90cc3227316e4ec9ec5714 -> 
+  custom:scripting/monoscript/fileName/TemplateOptionsUIHelper.cs: 3a8591f445a97f2e8c93ee6e0c450839 -> 
+  custom:scripting/monoscript/fileName/TangentSignVertexDataNode.cs: 6fbb9972d71e814c9ce5aef5d0200f70 -> 
+  custom:scripting/monoscript/fileName/AdditionalDefinesHelper.cs: 490b14f90dde37246771944fcfba3d59 -> 
+  custom:scripting/monoscript/fileName/KeywordSwitchNode.cs: 03f55bb0399860457649489110c6e978 -> 
+  custom:scripting/monoscript/fileName/SignalGeneratorNode.cs: 65f6101097cb5b70ca16882882a7f76b -> 
+  custom:scripting/monoscript/fileName/OrthoParams.cs: e3115ca8a2a7d3d0b5e2e8e0b114b1c1 -> 
+  custom:scripting/monoscript/fileName/ZBufferOpHelper.cs: 6214370fef08100193fb6b07385f51a9 -> 
+  custom:scripting/monoscript/fileName/WorldToObjectMatrix.cs: 248e02a6b2483c5c29b081a4cb6a6f6c -> 
+  custom:scripting/monoscript/fileName/NoiseGeneratorNode.cs: 1145a286e058fadc2b5ee8f8827df4c3 -> 
+  custom:scripting/monoscript/fileName/MasterNodeDataCollector.cs: 5e1a909553d2d7e31f20c04297fe12ea -> 
+  custom:scripting/monoscript/fileName/ScreenDepthNode.cs: 2841758b260787243a0c096500dcc832 -> 
+  custom:scripting/monoscript/fileName/TemplatesStencilBufferModule.cs: 0b6e1ab2367c91d9dcf194d2d38352ca -> 
+  custom:scripting/monoscript/fileName/ToolsMenuButton.cs: 83ff05a335ebf498683cf67534c3df99 -> 
+  custom:scripting/monoscript/fileName/ReciprocalOpNode.cs: e4601d0da055b1087bb45935e4217f00 -> 
+  custom:scripting/monoscript/fileName/Log10OpNode.cs: 0f047333b514ec05ad84e7d46f047bba -> 
+  custom:scripting/monoscript/fileName/Preferences.Project.cs: e52a848c8ca5718a24591a650c8c212b -> 
+  custom:scripting/monoscript/fileName/ASESaveBundleTool.cs: 9ed1e6b1097c1c8f225256f676f925a5 -> 
+  custom:scripting/monoscript/fileName/VariablePortTypeOpNode.cs: 97b05b698c848674f308a9c024f831b8 -> 
+  custom:scripting/monoscript/fileName/SimpleTimeNode.cs: 906d60feeb8d9d52c44e9c85c3ed2265 -> 
+  custom:scripting/monoscript/fileName/BillboardNode.cs: 7b2bb5dd0835b4236ef1fb5fd5c2c269 -> 
+  custom:scripting/monoscript/fileName/FallbackPickerHelper.cs: 7aecb241e15a51cda6605c11033d283b -> 
+  custom:scripting/monoscript/fileName/IsNaNNode.cs: 5d1a9ae3a7a71e50feccd58663126167 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/NodeUtils.cs: aeff033eba19136cbccbfac4b647c4cd -> c3de1fa7d415926ee4d17872fe450873
+  custom:scripting/monoscript/fileName/FallbackVector2.cs: dcf831679fb0168021e16acb8d492b23 -> 
+  custom:scripting/monoscript/fileName/OutputNode.cs: 58044bceb235a3f2646364e99549fdad -> 
+  custom:scripting/monoscript/fileName/GenericMessage.cs: 53d74e6a8756c3d0d1b371cc9e80c13e -> 
+  custom:scripting/monoscript/fileName/ComponentMaskNode.cs: 0aa7e58c1eaae28ff17db214f100f953 -> 
+  custom:scripting/monoscript/fileName/TemplateAdditionalParentHelper.cs: cf8554b8d336b8aac596c26d71ac26d8 -> 
+  custom:scripting/monoscript/fileName/DdxOpNode.cs: 762be5a8c0a3a750a3899d678dde7e25 -> 
+  custom:scripting/monoscript/fileName/TipsWindow.cs: 72775258be78d9064f6fc4b4d997f4b2 -> 
+  custom:scripting/monoscript/fileName/LightColorNode.cs: 8cae74e8a30d56b74dd819fac90bfe9f -> 
+  custom:scripting/monoscript/fileName/DegreesOpNode.cs: becd0d050eb7487f88e40d55cffd44a3 -> 
+  custom:scripting/monoscript/fileName/PiNode.cs: 23e14b450854fe13b7ed72d6fde0ec3d -> 
+  custom:scripting/monoscript/fileName/UIUtils.cs: 23bc1bcb242e252d9ef612d6101c969e -> 
+  custom:scripting/monoscript/fileName/TemplateModulesData.cs: 8361f2b10dcd974c05f0e51b9996e81a -> 
+  custom:scripting/monoscript/fileName/TemplateShaderData.cs: 8396d942e4da43af0e0b38d0b3ef5f0f -> 
+  custom:scripting/monoscript/fileName/UnityProjectorMatrixNode.cs: 157197888e37821708e0ba490018883e -> 
+  custom:scripting/monoscript/fileName/UndoUtils.cs: fce373f9e132f0cb174f00e68cfdad7b -> 
+  custom:scripting/monoscript/fileName/PosVertexDataNode.cs: 2621084a92d417d6b025cc425265be3d -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VoronoiNode.cs: bbe6996830db4b79b7e7ca3d47cd8224 -> 664cc8054b20c3b2197e59e6d4d687f0
+  custom:scripting/monoscript/fileName/DiffuseAndSpecularFromMetallicNode.cs: 0aa363c01ecdbc24087e16a21918a97c -> 
+  custom:scripting/monoscript/fileName/TemplateVertexDataNode.cs: 19a947de8a1c1a64c87d7d6db4fb46fb -> 
+  custom:scripting/monoscript/fileName/RSqrtOpNode.cs: 5973f9a2d3840ac1e744b25c1041a1e3 -> 
+  custom:scripting/monoscript/fileName/TemplateDepthModule.cs: d68713ea3d224c5f176c6552338e9093 -> 
+  custom:scripting/monoscript/fileName/TemplateModuleHelper.cs: 06c898b18a6bf508ff6410d34b1a49f7 -> 
+  custom:scripting/monoscript/fileName/CrossProductOpNode.cs: 37569a3b1c46a1a0049e6dbc95b86972 -> 
+  custom:scripting/monoscript/fileName/ViewMatrixNode.cs: a9fe7dadae78540dc1f7ada6b8bb4e2e -> 
+  custom:scripting/monoscript/fileName/TransposeMVMatrix.cs: 2d5f1c0cac557c89d0f03dba18c07e9f -> 
+  custom:scripting/monoscript/fileName/LogOpNode.cs: c9416ae0a7631c686e365310ce19580d -> 
+  custom:scripting/monoscript/fileName/AdditionalSurfaceOptionsHelper.cs: 19a703662674eca55b9c6daf4af0d8a5 -> 
+  custom:scripting/monoscript/fileName/FallbackVector3.cs: 038b535ef03a0dd41a4dcf80e1556c78 -> 
+  custom:scripting/monoscript/fileName/ConstVecShaderVariable.cs: 2e4ca27750ce5cf47c9c85d2136c2dae -> 
+  custom:scripting/monoscript/fileName/ACosOpNode.cs: 75d99a38a41b540cadaff6efa728f362 -> 
+  custom:scripting/monoscript/fileName/SaturateNode.cs: 31252aac34e7900767ac6d0c8bcb6173 -> 699472c06e43bbf995782a88e4317d65
+  custom:scripting/monoscript/fileName/TFHCCompareLower.cs: 7407c30913c98beac25b47951a8b2b46 -> 
+  custom:scripting/monoscript/fileName/ColorNode.cs: 13fc2b5191b5f337f4a85482b51e4a91 -> dc3b622ead159f9b1dbd4b336a7ed5df
+  custom:scripting/monoscript/fileName/MVMatrixNode.cs: 5e5e81bc8ede3ec261aabe90bc33cd07 -> 
+  custom:scripting/monoscript/fileName/ObjectPositionNode.cs: ce55db3d15372e0f09be3a833743eb7e -> 
+  custom:scripting/monoscript/fileName/LayeredBlendNode.cs: 33814ed7b26a7a076e18a79461abcf93 -> 
+  custom:scripting/monoscript/fileName/MaterialQualityNode.cs: e615900a97d0fa4db7838d52c73cebea -> 
+  custom:scripting/monoscript/fileName/ColorSpaceDouble.cs: 9dae4f95992b14e6778dcd6291ba7db6 -> 
+  custom:scripting/monoscript/fileName/CameraDepthFade.cs: e77bdd1deaf2d7717d8e6e8135a1af03 -> 
+  custom:scripting/monoscript/fileName/PowerNode.cs: cf5b5fe15507727b64a17e1ded963ad0 -> e140ed63a07306e1605770c1307a3854
+  custom:scripting/monoscript/fileName/TemplateIdManager.cs: d61e9943d2af9482e5540f706f6eb4e4 -> 
+  custom:scripting/monoscript/fileName/LightAttenuation.cs: f8c9e97e427076edad798afd82a3372a -> 
+  custom:scripting/monoscript/fileName/SurfaceDepthNode.cs: 827b876c20069349f8673f67a0c3461a -> 
+  custom:scripting/monoscript/fileName/ShaderVariablesNode.cs: a440326553d4a05481199b7bece7a072 -> 
+  custom:scripting/monoscript/fileName/DrawInfo.cs: 28e8b03f172ca1de37f66c8c27c74c70 -> 
+  custom:scripting/monoscript/fileName/TransposeOpNode.cs: d7ee8fb3fb861ba0195272c56e3bb8b7 -> 
+  custom:scripting/monoscript/fileName/ISignalGenerator.cs: 2c09a02910e993179dc6f84aadaa37a0 -> 
+  custom:scripting/monoscript/fileName/CosTime.cs: 068bdf4ccf4b4899e18c17afbbe924e0 -> 
+  custom:scripting/monoscript/fileName/MasterNode.cs: 3f6fcdc4bc046fc26e9a9cb931a6445b -> 
+  custom:scripting/monoscript/fileName/DynamicTypeNode.cs: 7de77180d867c65ea56728250f7da686 -> 
+  custom:scripting/monoscript/fileName/ColorInputsNode.cs: f37758bfb883ac5039c182e8e27f67ea -> 
+  custom:scripting/monoscript/fileName/TemplateShaderPropertyNode.cs: c73ce751065601a0b1ca17121fba537a -> 
+  custom:scripting/monoscript/fileName/PalettePopUp.cs: da7231346e076ecd381991244d844e23 -> 
+  custom:scripting/monoscript/fileName/EncodeDepthNormalNode.cs: 5722b01e017ec9451fbd03460a5abc71 -> 
+  custom:scripting/monoscript/fileName/ConsoleLogWindow.cs: 7278abbc922554404cac10d4c4f42015 -> 
+  custom:scripting/monoscript/fileName/WorldTransformParams.cs: 23494d2386e2fbea276399613ae9d6e9 -> 
+  custom:scripting/monoscript/fileName/TemplatesManager.cs: da2ea26020362b7c453f8a6e9dbbf443 -> 
+  custom:scripting/monoscript/fileName/ToolsMenuButtonSep.cs: 33088dfc2f93f90882341ffcea25f43c -> 
+  custom:scripting/monoscript/fileName/ToggleSwitchNode.cs: e69b49d4654ddb4b90bb4a62dd166e00 -> 
+  custom:scripting/monoscript/fileName/TemplateTagsModule.cs: eb3d8f5878f54b9173979aef4de05072 -> 
+  custom:scripting/monoscript/fileName/VertexIdVariableNode.cs: 60e50d9defcbb26f640a05e69730b54a -> 
+  custom:scripting/monoscript/fileName/AnyOpNode.cs: d7b71577e4e89cc0e4934362e876d11d -> 
+  custom:scripting/monoscript/fileName/SinOpNode.cs: 8b4c373761ed9991585d52a3398bb36d -> 
+  custom:scripting/monoscript/fileName/WorldReflInputsNode.cs: e6994f1e0598f4fee06dbb23c92a221c -> 
+  custom:scripting/monoscript/fileName/WorldSpaceLightDirHlpNode.cs: 1a634f73fdb7836df526eb0fc42f0d23 -> 
+  custom:scripting/monoscript/fileName/TemplateColorMaskModule.cs: 6ffd414543d0d6f249800b3135f14fd4 -> 
+  custom:scripting/monoscript/fileName/ShaderEditorModeWindow.cs: c42deb6f19fb4cec3715576c048f3c89 -> 
+  custom:scripting/monoscript/fileName/TemplateHelperFunctions.cs: c8650c12682fe30e95d30ce58deda224 -> 
+  custom:scripting/monoscript/fileName/HeightMapBlendNode.cs: a02a51059c082d036ee2d22e582d4f9a -> 
+  custom:scripting/monoscript/fileName/UndoParentNode.cs: 2d78726194fb805fac9d13d230968eda -> 
+  custom:scripting/monoscript/fileName/CameraWorldClipPlanes.cs: 91b3cc7919c13080747c649697f157e1 -> 
+  custom:scripting/monoscript/fileName/TemplateAdditionalDefinesHelper.cs: d7d5d6582cfe307d22e6fb7049836a11 -> 
+  custom:scripting/monoscript/fileName/DecodeFloatRGBAHlpNode.cs: 953564770fa7127c3cdd4dd6ad3b0b88 -> 
+  custom:scripting/monoscript/fileName/SimpleAddOpNode.cs: 1c2e0a819eda784215679f33db4ffdc9 -> 
+  custom:scripting/monoscript/fileName/HSVToRGBNode.cs: 90a6d8d8eb6ae0caa71cae81cf2dc6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DitheringNode.cs: 6225c017335309403f784e68c2bd5db1 -> 
+  custom:scripting/monoscript/fileName/GeneratorUtils.cs: 80084100058e7390f6af3b73d9a7b238 -> 
+  custom:scripting/monoscript/fileName/WorldSpaceViewDirHlpNode.cs: 33dd4ef55f39753f504151335c2cb6aa -> 
+  custom:scripting/monoscript/fileName/Texture1MatrixNode.cs: 8ece26e48635b96d409ffb1114f3e83b -> 
+  custom:scripting/monoscript/fileName/TemplateMasterNode.cs: c59c4294b4728a20d5c62ec5298c0222 -> 
+  custom:scripting/monoscript/fileName/ObjectToWorldMatrixNode.cs: b9899ae18f648415aabd5f32c7e1a1cd -> 
+  custom:scripting/monoscript/fileName/WorldNormalVector.cs: 4e3aca2f331960949c3064ae1efab457 -> 
+  custom:scripting/monoscript/fileName/PrimitiveIdVariableNode.cs: dd298272a1109752a776d6b99535ce3c -> 
+  custom:scripting/monoscript/fileName/EditableIf.cs: 87664f1a56b7f3224080a8f84a3dd1c3 -> 
+  custom:scripting/monoscript/fileName/OneMinusNode.cs: 43d501df776d6f49462cad1a54ab526f -> cdcdbdc299c6d4956e1ea37aa564f72e
+  custom:scripting/monoscript/fileName/VectorFromMatrixNode.cs: 4d9eb66ab77282b7df83242bf38e5eb9 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SurfaceShaderINParentNode.cs: b8f37020ad61c8434136842ed83cb5a6 -> 
+  custom:scripting/monoscript/fileName/InlineProperty.cs: 8525842f956b7bcc97ebb6f03c1e0001 -> 
+  custom:scripting/monoscript/fileName/StencilBufferOpHelper.cs: e48d9fdb7933541d17d63a996221213f -> 
+  custom:scripting/monoscript/fileName/ReordenatorNode.cs: 21dd58a7c6a6d505e76387d3475deb87 -> 
+  custom:scripting/monoscript/fileName/FmodOpNode.cs: e18df30239221ed98048e0daf792c687 -> 
+  custom:scripting/monoscript/fileName/InstanceIdNode.cs: 37314e0752feb65f8d4de2521d757f75 -> 
+  custom:scripting/monoscript/fileName/TerrainDrawInstancedHelper.cs: 861690bdf2e423fa24d96565903bfa4c -> 
+  custom:scripting/monoscript/fileName/BitangentVertexDataNode.cs: f016de5b8793ca29c6d28017fed6640c -> 
+  custom:scripting/monoscript/fileName/FallbackString.cs: b5fef98604e3bc62e7f83be7712dd13b -> 
+  custom:scripting/monoscript/fileName/DoCreateShader.cs: 7b4c22a3e17e224972c3119319824cc7 -> 
+  custom:scripting/monoscript/fileName/ParentTransfNode.cs: 20bcab181faab8dcb2cb290a0688a8af -> 
+  custom:scripting/monoscript/fileName/ConstantShaderVariable.cs: fbab8b0383940504c440b33c7dbd82d6 -> 
+  custom:scripting/monoscript/fileName/FaceVariableNode.cs: b1ef921182375d5197770cd62fdf7f16 -> 
+  custom:scripting/monoscript/fileName/AmplifyShaderFunction.cs: a5b31453cbc36d5fc234dc12dd4414fb -> 
+  custom:scripting/monoscript/fileName/DecodeLightmapHlpNode.cs: 4263f4abe4d3c1b81aa26bf6d8511634 -> 
+  custom:scripting/monoscript/fileName/Vector4Node.cs: 183a9228e55d89fb515e97c5c7a6a329 -> efd729cfe207fda5317fd0959074259f
+  custom:scripting/monoscript/fileName/LinearDepthNode.cs: 577a828e4c9ce4c18116c6edc0b72ef0 -> 
+  custom:scripting/monoscript/fileName/AmplifyShaderFunctionEditor.cs: 37cd23337181e1931842597398bc216d -> 
+  custom:scripting/monoscript/fileName/VertexDataNode.cs: bee017751629da5e322f07f70e0f07bf -> 
+  custom:scripting/monoscript/fileName/GetLocalVarNode.cs: 19ab23638755b1cb6aafcbf8bd062660 -> 
+  custom:scripting/monoscript/fileName/TemplateAdditionalIncludesHelper.cs: 6636f975bdbdf23dc5266d970746dbe4 -> 
+  custom:scripting/monoscript/fileName/GammaToLinearNode.cs: 6c5675b9215c2014993968aa3c8de02c -> 
+  custom:scripting/monoscript/fileName/ShortcutsManager.cs: cfcc479ab4daba95fb195f5ae0229c76 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/VirtualTextureObject.cs: ef3f2772a56927a902763cd161a21a52 -> 
+  custom:scripting/monoscript/fileName/SimplifiedFModOpNode.cs: 3f8f58fbc8f2bd78055bf8f1844ffc41 -> 
+  custom:scripting/monoscript/fileName/ColorVertexDataNode.cs: cbca5345b0b391fb01b1eaa5b01260c7 -> 
+  custom:scripting/monoscript/fileName/TemplateCullModeModule.cs: f81d1414c3512bcaed3f92ed3c806fd5 -> 
+  custom:scripting/monoscript/fileName/BlendOpsNode.cs: 9c12f9c2ef2fd8cca11f3f6a89df8792 -> 
+  custom:scripting/monoscript/fileName/RenderingOptionsOpHelper.cs: 196c8a688f9d3b576317891ca1eb7098 -> 
+  custom:scripting/monoscript/fileName/CustomTagsHelper.cs: dd1593dd93b8e8e0f98f96bd1d07299b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ParentNode.cs: 0b53d30be818dc95370d88cd4e824c90 -> 
+  custom:scripting/monoscript/fileName/ActionData.cs: a857fd910ff83aeb21cacf032701738a -> 
+  custom:scripting/monoscript/fileName/RoundOpNode.cs: 6f860e4ba087d95bd3cedc2d553e2cb9 -> 
+  custom:scripting/monoscript/fileName/FallbackInt.cs: d52e434e730389758ee208b4cfc571f2 -> 
+  custom:scripting/monoscript/fileName/WeightedAvgNode.cs: f8161de0540b2b6a97217dae09617e6d -> 
+  custom:scripting/monoscript/fileName/SimpleMaxOpNode.cs: 6a96f5173f41c522f686d8482869ec6b -> 
+  custom:scripting/monoscript/fileName/MVPMatrixNode.cs: 0d18043062d4036b8e9e17356a9aca71 -> 
+  custom:scripting/monoscript/fileName/TextureArrayNode.cs: 18fe2190130f02963ee6f7d6d75c4b0d -> 
+  custom:scripting/monoscript/fileName/PosFromTransformMatrix.cs: 6ca760a327baeb2973f42eab3b9abdb8 -> 
+  custom:scripting/monoscript/fileName/ASESaveBundleAsset.cs: 303e5ee8ccb6da123b6d955acb3d8a3b -> 
+  custom:scripting/monoscript/fileName/SimpleRemainderNode.cs: 0d061dc616566b4be58384fc64062061 -> 
+  custom:scripting/monoscript/fileName/FlipNode.cs: 80cb70d3ef30074afceea16494fed3e1 -> 48bb1c008fa02da183e45f28086a00a6
+  custom:scripting/monoscript/fileName/SmoothstepOpNode.cs: 0acb703492154522c6824034b240f9e4 -> 
+  custom:scripting/monoscript/fileName/BlendIndicesNode.cs: 2ff82488f60eb3a646a44aa9c8a848e5 -> 
+  custom:scripting/monoscript/fileName/ToolsMenuButtonParent.cs: 1f551b195c9832814d6daca984325e51 -> 
+  custom:scripting/monoscript/fileName/LODFadeNode.cs: 3498b17b46a2161b87019b9450061565 -> 
+  custom:scripting/monoscript/fileName/IOUtils.cs: f035f76c42ce32ec5469154527fd5c2f -> 
+  custom:scripting/monoscript/fileName/TangentVertexDataNode.cs: 85635206120fa9eb4944ac344bbf428e -> 
+  custom:scripting/monoscript/fileName/Vector2Node.cs: f94fb9e392697a566053bc1ed237fba7 -> 27a5f70bf425f3e4ecab79166cac2f10
+  custom:scripting/monoscript/fileName/NodeRestrictions.cs: 788c010919d1e67badef445aa75ab699 -> 
+  custom:scripting/monoscript/fileName/CoshOpNode.cs: 1965bfbd0175e3a56a5cca2e76341a11 -> 
+  custom:scripting/monoscript/fileName/TransformPositionNode.cs: 419d6723d6d0cc781625c118d2ed1c77 -> 
+  custom:scripting/monoscript/fileName/ShadeVertexLightsHlpNode.cs: 6f27239fdf72152f0017a3f391035cc2 -> 
+  custom:scripting/monoscript/fileName/ObjectScaleNode.cs: d643c5b150ccf3c391ae94214f60755c -> 
+  custom:scripting/monoscript/fileName/ParallaxMappingNode.cs: b94780ffa4b67ebdde9eb6dd7d5347af -> 2d5d21ef3cc884ce2d0f39560fdb108a
+  custom:scripting/monoscript/fileName/SimpleContrastOpNode.cs: 11b070ffe1c346ec4dc8b211ca88c867 -> 
+  custom:scripting/monoscript/fileName/DepthFade.cs: 92f7872dff8ca311eeeddb62074247d1 -> 
+  custom:scripting/monoscript/fileName/TemplateOptionsData.cs: 7cb05229b6aceb5b5eefeb764f1f627e -> 
+  custom:scripting/monoscript/fileName/WorldReflectionVector.cs: 36b3c6801b3c0e4bc34baced0b8b87f7 -> 
+  custom:scripting/monoscript/fileName/RotateAboutAxisNode.cs: 5881b68639790b8da7bd74652f045ef4 -> 062bed844de8e017e255f954c505ade0
+  custom:scripting/monoscript/fileName/IFallbackVars.cs: 6246a692caaffebe123a94c6b4c21f38 -> 
+  custom:scripting/monoscript/fileName/EncodeFloatRGBAHlpNode.cs: 817f71f59ceed07e8978cbca502eef91 -> 
+  custom:scripting/monoscript/fileName/TemplateInterpData.cs: 6e17c6ed865606658dd027d215820e9d -> 
+  custom:scripting/monoscript/fileName/TanOpNode.cs: 0fecf4c8bb6d974bb15519ab5e556a1d -> 
+  custom:scripting/monoscript/fileName/EditorOptions.cs: 8002365624ed2a5728a336e7432f9c3f -> 
+  custom:scripting/monoscript/fileName/UsePassHelper.cs: cea2916974855f38f088bbd422748e8b -> 
+  custom:scripting/monoscript/fileName/CosOpNode.cs: 0af11148031fbb096004225d68230385 -> 
+  custom:scripting/monoscript/fileName/Preferences.cs: 26ba69f8110a84a719b75cfd00f02720 -> 
+  custom:scripting/monoscript/fileName/TemplateMultiPassMasterNode.cs: ac4c27e2ba6ae3a6822a2449d80e4207 -> 
+  custom:scripting/monoscript/fileName/DdyOpNode.cs: e2485f69bb82d352d822d2db923fedb8 -> 
+  custom:scripting/monoscript/fileName/SamplerStateNode.cs: 48d1185bd25e74c61a3d6d7bacfaa675 -> 6bc38490f4dee89097730d6d317a8160
+  custom:scripting/monoscript/fileName/TextureArrayCreatorAsset.cs: e239b26ec4891d22ef7a75ef5a1aed11 -> 
+  custom:scripting/monoscript/fileName/NormalVertexDataNode.cs: b884e7c652c7a54daf8277eb27fcda5a -> 
+  custom:scripting/monoscript/fileName/TFHCStub.cs: 46567377c4b61992eacc2182d37d7745 -> 
+  custom:scripting/monoscript/fileName/UnityScaleMatrix.cs: 2b4d797f364a19b36fde7924bf566f95 -> 
+  custom:scripting/monoscript/fileName/TexCoord1VertexDataNode.cs: 67cd24f0ce56c00b6d8b17edae484ed6 -> 
+  custom:scripting/monoscript/fileName/TemplateLocalVarsNode.cs: 204c582c2723ff0bbe65b03b76442c73 -> 
+  custom:scripting/monoscript/fileName/InverseTranspMVMatrixNode.cs: 399c57a151130077f85e9f4dcdfa8374 -> 
+  custom:scripting/monoscript/fileName/TemplatePass.cs: 3787ec9efaa4fbd22e32587b2dff1252 -> 
+  custom:scripting/monoscript/fileName/ASinOpNode.cs: c3522fee3e731b871a775da97a3072b5 -> 
+  custom:scripting/monoscript/fileName/FunctionSubtitle.cs: e63b7bb6b84b12d8bac780f1f3594b58 -> 
+  custom:scripting/monoscript/fileName/NotNode.cs: 1e79086bf321959af89f30b12f1813df -> f931cfeed3a6ce3f983d1a7764b0aee4
+  custom:scripting/monoscript/fileName/NodeExporterUtils.cs: 1565a0aeafdd2b327c9155035c2edcd8 -> 
+  custom:scripting/monoscript/fileName/MenuParent.cs: d3b1b0f8b39594ff9a06c5ad6769479c -> 
+  custom:scripting/monoscript/fileName/DistanceBasedTessNode.cs: 9388bc16857c8b14b0dce35ffff654fe -> 
+  custom:scripting/monoscript/fileName/PosterizeNode.cs: 58d886b9c852628d0c62020b96a7fd32 -> 22eec0de0b0ff2be25b885d81fc10f30
+  custom:scripting/monoscript/fileName/CommentaryNode.cs: 2254adbb7739461fbb5be82ae2109d9a -> 
+  custom:scripting/monoscript/fileName/LinearToGammaNode.cs: 9cba08856626923b1bcef206b430e11f -> 
+  custom:scripting/monoscript/fileName/WeightedBlendNode.cs: 0dcbad55e7f2245e7cb8bb486d251c64 -> 
+  custom:scripting/monoscript/fileName/TimeNode.cs: 503490fdfc7201b2a19659481ae30261 -> 228ce4766a99f0761289608e6ed4f9d5
+  custom:scripting/monoscript/fileName/CustomStandardSurface.cs: 8216331cd484718bf0fe4dedde5b4444 -> 
+  custom:scripting/monoscript/fileName/ReflectOpNode.cs: 02597f73134d0c056e577f8f1da2d130 -> 
+  custom:scripting/monoscript/fileName/TFHCPixelate.cs: b043785874999146c5cd38922702c54a -> 
+  custom:scripting/monoscript/fileName/LuminanceNode.cs: 500b751dcd5c02d60802e7b093802bb2 -> 
+  custom:scripting/monoscript/fileName/TransformVectorOpNode.cs: 0644e558ba12b2a5fccce0439e9d5b06 -> 
+  custom:scripting/monoscript/fileName/WireBezierReference.cs: c377deed4af5f3cd498299cac4b129d3 -> 
+  custom:scripting/monoscript/fileName/TexCoordVertexDataNode.cs: 6be4e83a55c48b2eaf96c0329fc16bd1 -> 
+  custom:scripting/monoscript/fileName/NodeWireReferencesUtils.cs: 8e6b969c73c4aa1f0cd69a439740c645 -> 
+  custom:scripting/monoscript/fileName/NormalizeNode.cs: 44f3de3e74fa29240da9d5a218ec5d61 -> 206e083603352147c800077850d90691
+  custom:scripting/monoscript/fileName/TemplatesBlendModule.cs: 878f11eaa88ae172f5b044d67af29a9e -> 
+  custom:scripting/monoscript/fileName/NandNode.cs: 4267b2fc164dbefd7b8a86ae1e0f5621 -> 23c9b6cc63194bd87293b257b3e30f9a
+  custom:scripting/monoscript/fileName/NoKeywordToggle.cs: 9d9d9e91d5cf9c7bcdfccd689222219d -> 
+  custom:scripting/monoscript/fileName/DeterminantOpNode.cs: cbfb990f18f63ce930fb19c065a27dfe -> 
+  custom:scripting/monoscript/fileName/ASEDiffusionProfile.cs: bac1aca6121f9e7c92bbb5dd945918e3 -> 
+  custom:scripting/monoscript/fileName/TemplateDataCollector.cs: 4a3d82498178b440834857bcf6a2a99d -> 
+  custom:scripting/monoscript/fileName/IsInfiniteNode.cs: b680385dafca698f19b1d1f7f78e0248 -> bcbe18979f1abaee3b2f5891214af9fe
+  custom:scripting/monoscript/fileName/Preferences.User.cs: e52a848c8ca5718a24591a650c8c212b -> 
+  custom:scripting/monoscript/fileName/SamplerStateAutoGenerator.cs: 841a3b2222ea3fcdfebfa71faeac4f99 -> 
+  custom:scripting/monoscript/fileName/InverseViewMatrixNode.cs: 2de0f340d122bf48e687996aef78eee2 -> 
+  custom:scripting/monoscript/fileName/WorldToObjectTransfNode.cs: e60ed4fbed8adedea039e7fcc1a1e71e -> 
+  custom:scripting/monoscript/fileName/VersionInfo.cs: adb8cbcab92ae5691e024fb842b7a834 -> 
+  custom:scripting/monoscript/fileName/FunctionInput.cs: 1da3bb438d14697361d6c91fc7658275 -> 
+  custom:scripting/monoscript/fileName/UpperLeftWidgetHelper.cs: db949b4d18925ca9cfd06dea33cbbeb3 -> 
+  custom:scripting/monoscript/fileName/FallbackVector4.cs: eef70100d8c4d55fd6900c93d86186ae -> 
+  custom:scripting/monoscript/fileName/WorldPosInputsNode.cs: 5b2479d3dfe428a7cdc7e0486dc45cc5 -> 
+  custom:scripting/monoscript/fileName/GradientSampleNode.cs: 1276e47bd5787da8055b1dd49b26d00a -> 
+  custom:scripting/monoscript/fileName/DependenciesHelper.cs: 96dbe8b37ba28797455e6b6196b90e56 -> 
+  custom:scripting/monoscript/fileName/NegateNode.cs: 89efba2b163ccb70b1942cbc19cba3fb -> 94a6b6efb00ed499f0715b504a59a22e
+  custom:scripting/monoscript/fileName/DotProductOpNode.cs: b30381acdb8cba81ea71d8e82e335282 -> 
+  custom:scripting/monoscript/fileName/DebugConsoleWindow.cs: 80499c996237e17c5f1d9b580c76f8e5 -> 
+  custom:scripting/monoscript/fileName/TFHCCompareNotEqual.cs: 0c02433dc3c479d7afbd6176ad12fe87 -> 
+  custom:scripting/monoscript/fileName/ClampOpNode.cs: ec68cfa55682261f62a9cc7b9eed77fd -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ContextPalette.cs: e4af77861de4c62dd8bf135ca19aa581 -> 
+  custom:scripting/monoscript/fileName/ContextMenuItem.cs: c00aaa1428fd3d57a2f2aa12a8690de2 -> 
+  custom:scripting/monoscript/fileName/FloorOpNode.cs: 9b43b447ea11cf1c9e04ce5c46d4d8c3 -> 
+  custom:scripting/monoscript/fileName/RenderingPlatformsOpHelper.cs: c0a1a82a15d3079cf370f72d552d6014 -> 
+  custom:scripting/monoscript/fileName/ScreenPosInputsNode.cs: e8d73076edf5b2a58efe8262cb37be79 -> 
+  custom:scripting/monoscript/fileName/WorldNormalInputsNode.cs: 5254942ac12c3179a7ce1567bae940a2 -> 
+  custom:scripting/monoscript/fileName/GraphContextMenu.cs: 0f8695034fbefd723edbe23fbde616e7 -> 
+  custom:scripting/monoscript/fileName/TFHCCompareWithRange.cs: cf00fa2a1351efe733ad60097d6a4ec0 -> 
+  custom:scripting/monoscript/fileName/VertexToFragmentNode.cs: a2c1421c34d4c8778f57938a166bb4b6 -> 
+  custom:scripting/monoscript/fileName/LocalVertexPosNode.cs: 82ff350ce1031c0e142e6f772de36b0c -> 
+  custom:scripting/monoscript/fileName/FractNode.cs: 8fce68c22d2c1222356a11481a6c288a -> 
+  custom:scripting/monoscript/fileName/NodeUsageRegister.cs: 20ce4561ae72f8a07ccccb372898fdfc -> 
+  custom:scripting/monoscript/fileName/AllOpNode.cs: 9faaa822d2595a1bd225eae99e2af650 -> 
+  custom:scripting/monoscript/fileName/ZBufferParams.cs: 9cd0b0ba840399e74a0fa79b13178043 -> 
+  custom:scripting/monoscript/fileName/About.cs: 64e81b6763f7109f891d7852d6ee7436 -> 
+  custom:scripting/monoscript/fileName/SwitchByFaceNode.cs: 136bdbf16696ae5864356e6241490f4a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SwitchNode.cs: 79ca8b8d61a72c578955cbc45c19ab1a -> 
+  custom:scripting/monoscript/fileName/TemplateDataParent.cs: f6d452fc74f67077e940213631a373c6 -> 
+  custom:scripting/monoscript/fileName/CeilOpNode.cs: 3a0ce405ed24b0cb209fde16f7f6f7d1 -> 
+  custom:scripting/monoscript/fileName/TemplateShaderModelModule.cs: eea0cd4c6726b93ec5c844e534afe868 -> 
+  custom:scripting/monoscript/fileName/ASEPackageManagerHelper.cs: d211623413777c8df36e67211f70b26a -> 
+  custom:scripting/monoscript/fileName/TriplanarNode.cs: 6835105246c21d198db405c68f935d10 -> 90537466fe3f27af8d319b572631df67
+  custom:scripting/monoscript/fileName/RangedFloatNode.cs: a8187976d4b51799af28101cfedf5f80 -> 
+  custom:scripting/monoscript/fileName/LogNode.cs: d07a789b5a662a9c84d213cdff6f7e25 -> 6a74d8117017a06427518c3f78b4aa03
+  custom:scripting/monoscript/fileName/LengthOpNode.cs: af272786a81a7e47448fe215ecc35b0d -> 
+  custom:scripting/monoscript/fileName/ObjSpaceViewDirHlpNode.cs: a1a5decd72ab7fc9aca679538b699fe2 -> 
+  custom:scripting/monoscript/fileName/TransformVariables.cs: 6f22c69eabc3511d91fe29c62f9c64ff -> 
+  custom:scripting/monoscript/fileName/TransformDirectionNode.cs: a26907dc88de9fbda983ff144500c7f3 -> 
+  custom:scripting/monoscript/fileName/TFHCFlipBookUVAnimation.cs: 47b1512e5ea5fd223e29ff0a79066f9d -> 
+  custom:scripting/monoscript/fileName/FallbackColor.cs: 9d81570003c9a58ee82ec4c9435842e4 -> 
+  custom:scripting/monoscript/fileName/WorldToTangentMatrix.cs: 9d9875fb8baa256d54cf0598d6356cda -> 
+  custom:scripting/monoscript/fileName/CustomAddNode.cs: 260d8ba812513d275ca0202848a6e41a -> 
+  custom:scripting/monoscript/fileName/RadiansOpNode.cs: 56ea7e7f65f1da59ca11441bcdb5d4cc -> 
+  custom:scripting/monoscript/fileName/CustomMaterialInspector.cs: 2ec03dddedc2f03daaf3afe153041e08 -> 
+  custom:scripting/monoscript/fileName/CodeGenerationData.cs: 477007695526b2f29290ebb82ee5a687 -> 
+  custom:scripting/monoscript/fileName/RotatorNode.cs: 86fff899629f15f2f8cdae33c0af68fe -> 
+  custom:scripting/monoscript/fileName/ViewDirInputsCoordNode.cs: c6eeb32d74e0667a573b898a83d7e900 -> 
+  custom:scripting/monoscript/fileName/InverseProjectionMatrixNode.cs: 78bcc7d21a344b6610813ef4dddc9357 -> 
+  custom:scripting/monoscript/fileName/ViewProjectionMatrixNode.cs: 76fe8ed01734d327c319cf321ea93e3a -> 
+  custom:scripting/monoscript/fileName/SimpleSubtractOpNode.cs: cfa6265ea6acbcf7b57563941f7b0a62 -> 
+  custom:scripting/monoscript/fileName/FunctionSwitch.cs: 99764d095c35d7326304c391d33593a0 -> 
+  custom:scripting/monoscript/fileName/SimpleMultiplyOpNode.cs: 1bc2e64e2459532cea969e99612f1260 -> 
+  custom:scripting/monoscript/fileName/OutputPort.cs: 0b07099df501154276c9cbef7ef17bb3 -> 
+  custom:scripting/monoscript/fileName/StandardSurface.cs: d2a38dfdd92c8dce2245a58871aabe52 -> 
+  custom:scripting/monoscript/fileName/IndirectDiffuseLighting.cs: 45f805e2f984ef0a5b52b5b5707e4be5 -> 
+  custom:scripting/monoscript/fileName/TemplateRenderPlatformHelper.cs: 21acffde8ffbd5e2a2ecbd277b6291c4 -> 
+  custom:scripting/monoscript/fileName/TFHCCompareLowerEqual.cs: 3ea9435fab84d8ea42bd8004fbd4dcad -> 
+  custom:scripting/monoscript/fileName/Vector3Node.cs: 64c4ab38eae02418f46e41e51325e2fd -> b00e452ab4707aff87f5d4776964cff7
+  custom:scripting/monoscript/fileName/FogParamsNode.cs: 8577e180f39f9a50ce84111219e5f357 -> 
+  custom:scripting/monoscript/fileName/VertexTangentNode.cs: 1cdd08e6f719638cc9ef7dfdea3e026e -> 
+  custom:scripting/monoscript/fileName/DeltaTime.cs: dfcd1fc0910e55cbc1e62e1e25bb56b6 -> 
+  custom:scripting/monoscript/fileName/OutlineOpHelper.cs: a7e319baecddad5397add8b4ef56b08b -> 
+  custom:scripting/monoscript/fileName/NodeGrid.cs: d5c1dd732ba190db4f491700b662b810 -> 
+  custom:scripting/monoscript/fileName/Log2OpNode.cs: 6d64c50dcbadd7ea70ec1eb6d33b9e45 -> 
+  custom:scripting/monoscript/fileName/TruncOpNode.cs: da908bc553218d39c3219a7b72163f34 -> 
+  custom:scripting/monoscript/fileName/FallbackMatrix4x4.cs: 1534df52e9c28fff87df7919d41f7e59 -> 
+  custom:scripting/monoscript/fileName/DecodeViewNormalStereoHlpNode.cs: 5f2797dffe1aa6c13c5227ebc761189b -> 
+  custom:scripting/monoscript/fileName/GrabScreenPosition.cs: c9f004bf4d3c544022722cd4e0c7812b -> 
+  custom:scripting/monoscript/fileName/TemplateMenuItems.cs: 6e3209a58614eaaf135bed51439ae6f4 -> 
+  custom:scripting/monoscript/fileName/TemplateLocalVarData.cs: 7ecd80af6714ec939abd30948dfff494 -> 
+  custom:scripting/monoscript/fileName/Matrix3X3Node.cs: 4cbb7ced871c2215f6b9d7b856fe3e59 -> 
+  custom:scripting/monoscript/fileName/FWidthOpNode.cs: 6393ff7cfdab2dbb4a177812b5d552fb -> 
+  custom:scripting/monoscript/fileName/StaticSwitch.cs: 7a7e9579bbeb6110f1e799d3c5e5df8a -> 
+  custom:scripting/monoscript/fileName/RectExtension.cs: c163f8ffe41e7504d68bf3a5f2863686 -> 
+  custom:scripting/monoscript/fileName/TemplateOptionsUI.cs: 302c7522f9f12373850ec82be06922c9 -> 
+  custom:scripting/monoscript/fileName/ColorMaskHelper.cs: f3707be8f63c4f94240b68041140b5b0 -> 
+  custom:scripting/monoscript/fileName/PreMadeShaders.cs: 43d1bf6da193829e7ae1a641e91c253a -> 
+  custom:scripting/monoscript/fileName/IndirectSpecularLight.cs: e55b889cbe8dda64cd0c967a86fdf886 -> 
+  custom:scripting/monoscript/fileName/GradientNode.cs: cfb53767d090c392acf2cc21c9606f6f -> 54c8cc6b89bd7398a89734fa847640cf
+  custom:scripting/monoscript/fileName/WorldSpaceLightPos.cs: 313c4675151dcdffd0daa279ed2513a4 -> 
+  custom:scripting/monoscript/fileName/TauNode.cs: 92ff473e202ebcedcd9a0034ffa8a2ed -> 
+  custom:scripting/monoscript/fileName/DesaturateOpNode.cs: 1e1b6028caa4558517ee7decfe2b7946 -> 
+  custom:scripting/monoscript/fileName/SimplexNoiseNode.cs: ef5bb7781adc879062d7a0c9e849c95b -> 
+  custom:scripting/monoscript/fileName/SwitchBySRPVersionNode.cs: cd2077052350c9e9ec05aa56ec1e2c8a -> 
+  custom:scripting/monoscript/fileName/VertexBinormalNode.cs: d294fadea30bf8a3b1bcc9ecfe908d6e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FunctionSwitchByPipeline.cs: f06fadb642b6c6e0dc630d8a45535102 -> 
+  custom:scripting/monoscript/fileName/Texture0MatrixNode.cs: 53aab1e60eed9a5ce1fc14ddb57f48a0 -> 
+  custom:scripting/monoscript/fileName/TemplateMultiPass.cs: 0d0f7c0489ef44a8ad759e092351bebd -> 
+  custom:scripting/monoscript/fileName/Matrix4X4Node.cs: b8e5a99dcc77af0edb866ce35539f047 -> 
+  custom:scripting/monoscript/fileName/ATan2OpNode.cs: 3741e3d637acbad89dd476304b0ea60d -> 
+  custom:scripting/monoscript/fileName/Constants.cs: d5a4b7774f49c67d32dd0ce9656bf549 -> 
+  custom:scripting/monoscript/fileName/TemplateDBItem.cs: dc0406947e9ceecd3429b2e17cddf277 -> 
+  custom:scripting/monoscript/fileName/TemplateAlphaToMaskModule.cs: 7b5be79060b63759d14950e4dec8c026 -> 
+  custom:scripting/monoscript/fileName/DecodeDepthNormalNode.cs: d9ecf86f43208f06afc88b494dacae74 -> 
+  custom:scripting/monoscript/fileName/CustomNode.cs: ee2ccccc305c9b3320b6c00c2fe343ac -> 
+  custom:scripting/monoscript/fileName/FallbackFloat.cs: 61eb1aa0b1b1ec804a992ed80ed034d0 -> 
+  custom:scripting/monoscript/fileName/TFHCGrayscale.cs: 73858d8407f314ac83be781fb941f0f6 -> 
+  custom:scripting/monoscript/fileName/AbsOpNode.cs: 1382412849c485518e76981b320ec772 -> 
+  custom:scripting/monoscript/fileName/ParallaxOffsetHlpNode.cs: 3e30f70dd81b39959fd864ac448107f2 -> 
+  custom:scripting/monoscript/fileName/WorldSpaceCameraPos.cs: fbdfe48dbf472600eca77a79f6841dfb -> 
+  custom:scripting/monoscript/fileName/CameraProjectionNode.cs: d6c8040d7acceea2f34d91c30585618e -> 
+  custom:scripting/monoscript/fileName/RemapSliders.cs: 7fea09d7865e4e0815a0acf999e2c59c -> 
+  custom:scripting/monoscript/fileName/ASEPPSHelperTool.cs: 439de83c42e82e6ccc1f8122f07d063a -> 
+  custom:scripting/monoscript/fileName/WindowsUtil.cs: 681b18e6e0bb763df6d8d55619d99d09 -> 
+  custom:scripting/monoscript/fileName/SqrtOpNode.cs: 63f77d50ad42cc7d0ce724fafa44e288 -> 
+  custom:scripting/monoscript/fileName/BlendNormalsNode.cs: 97f4ec87d17db3112b4510bae25394a3 -> 
+  custom:scripting/monoscript/fileName/ParallaxOcclusionMappingNode.cs: b9fe69027a0ae1fd73faa1c5b99b4c4e -> 99947bebe52565962d835ba396569801
+  custom:scripting/monoscript/fileName/ObjectBoundsNode.cs: 3b44b8229c28c44d04474b97eafe3cfb -> 
+  custom:scripting/monoscript/fileName/EditorVariablesManager.cs: 6ff790dba380c5a6a6a0e062ca513420 -> 
+  custom:scripting/monoscript/fileName/ParentGraph.cs: 6ed6415d075d917a8d656ca790df5bf0 -> 
+  custom:scripting/monoscript/fileName/RegisterLocalVarNode.cs: 13d8f90d4dffeb0d9cdb5b74e1217654 -> 
+  custom:scripting/monoscript/fileName/WireNode.cs: bdd62ec10835b844983cd52b95451674 -> 
+  custom:scripting/monoscript/fileName/SummedBlendNode.cs: c64a82a1703beb2c5f071868266d10f7 -> 
+  custom:scripting/monoscript/fileName/WirePort.cs: d9945c9e560649cc03d8f426c2211e95 -> 
+  custom:scripting/monoscript/fileName/ASEEndDecorator.cs: 0029ce6b27dcfd73be4d50931e521220 -> 
+  custom:scripting/monoscript/fileName/EncodeViewNormalStereoHlpNode.cs: 4b1121ccb5b1d757a07464ea9dc89078 -> 
+  custom:scripting/monoscript/fileName/AppendNode.cs: 63954a4ff792e56dd8a26aa5e71a570a -> 
+  custom:scripting/monoscript/fileName/RGBToHSVNode.cs: 5a3d0b12cacfec3686b4d891775a4f26 -> 
+  custom:scripting/monoscript/fileName/SwizzleNode.cs: 3d819e12fb4511affebe09bbe297c4a9 -> 0e49bc46c0e0dc74105cc17ceb9385a4
+  custom:scripting/monoscript/fileName/FunctionNode.cs: 0ff6c230c4f5e9c039520ddbea26bd62 -> 
+  custom:scripting/monoscript/fileName/DecodeFloatRGHlpNode.cs: 8f98933a413dd355c8b534ab440642a8 -> 
+  custom:scripting/monoscript/fileName/TwoSidedSignNode.cs: 839ebc9fd4ffb4947d7a82ca775e69c4 -> 
+  custom:scripting/monoscript/fileName/ClipNode.cs: a5cb336552bf04b673bbcdcdc4fae80f -> 
+  custom:scripting/monoscript/fileName/IntNode.cs: 459925a4ae3968d7ab44654ff4279443 -> 
+  custom:scripting/monoscript/fileName/DoCreateFunction.cs: 1f5d87249a1975e923f21a33244bed2b -> 
+  custom:scripting/monoscript/fileName/FogAndAmbientColorsNode.cs: 6ced4fc97035c148a80fd9e653e5a8ba -> 
+  custom:scripting/monoscript/fileName/TemplateAdditionalPragmasHelper.cs: ffd1d1f7b3615f0ee103ca0056f1b413 -> 
+  custom:scripting/monoscript/fileName/ShaderBodyTokenizer.cs: e3c5290a5e80c908ef9299472fb4da6d -> 
